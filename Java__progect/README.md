@@ -1,18 +1,27 @@
-## Getting Started
+# Snake Game in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Questo progetto implementa il classico gioco Snake utilizzando Java e la libreria grafica Swing.
 
-## Folder Structure
+## Come eseguire
 
-The workspace contains two folders by default, where:
+1. Assicurati di avere Java installato sul tuo computer.
+2. Compila i file Java:
+   
+   ```sh
+   javac src/*.java -d bin
+   ```
+3. Esegui il gioco:
+   
+   ```sh
+   java -cp bin main
+   ```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Controlli
+- Frecce direzionali: muovi il serpente
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## File principali
+- `snake.java`: logica e grafica del gioco
+- `main.java`: avvia il gioco
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autore
+- [Il tuo nome]
