@@ -20,7 +20,7 @@ public class costrutti {
             System.out.println("giorno 7");
         else                
             System.out.println("giorno non valido");
-
+//da preferire sulle grandi quantità di cambi.
         switch (giorno) {
             case 1:
                 System.out.println("no, non è mercoledì ma lunedì");
@@ -44,6 +44,9 @@ public class costrutti {
                 break;
             default:
                 throw new AssertionError();
+                /*Serve per segnalare che si è verificata una situazione che "non dovrebbe mai accadere" 
+                (ad esempio, un valore non previsto).
+                È utile per il debug, perché ti avvisa subito se qualcosa va storto*/
         }
         
         if(giorno > 0 && giorno < 8)
