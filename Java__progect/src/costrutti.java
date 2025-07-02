@@ -44,7 +44,7 @@ public class costrutti {
                 throw new AssertionError();
         }
         
-        if(giorno <= 0 && giorno >= 8)
+        if(giorno > 0 && giorno < 8)
             System.out.println("giorno valido");
         else
             System.out.println("giorno non valido");
