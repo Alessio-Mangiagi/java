@@ -48,6 +48,7 @@ public class costrutti {
                 (ad esempio, un valore non previsto).
                 È utile per il debug, perché ti avvisa subito se qualcosa va storto*/
         }
+
         
         if(giorno > 0 && giorno < 8)
             System.out.println("giorno valido");
@@ -58,5 +59,29 @@ public class costrutti {
             System.out.println("giorno lavorativo");
         else
             System.out.println("weekend");
+
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+
+        int count = 10;
+        while (count > 0) {
+            System.out.println(count);
+            count--;
+            }   
+        
+        do {
+            System.out.println(count);
+            count--;
+        } while (count > 0);
+        
+
+        for (int o = 0; o < 100; o++) {
+            System.out.println(o);
+        }
+        
+        }
+        
     }
 }
