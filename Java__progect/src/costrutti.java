@@ -1,6 +1,8 @@
 public class costrutti {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        System.out.println("\"><(((º> sabusabu <º)))><\"");
+
+
         int giorno = 4;
         if (giorno == 1)
             System.out.println("giorno 1");
@@ -16,29 +18,29 @@ public class costrutti {
             System.out.println("giorno 6");
         else if (giorno == 7)
             System.out.println("giorno 7");
-        else
+        else                
             System.out.println("giorno non valido");
 
         switch (giorno) {
             case 1:
-                System.out.println("lunedì");
+                System.out.println("no, non è mercoledì ma lunedì");
                 break;
             case 2:
-                System.out.println("martedì");
+                System.out.println("no, non è mercoledì ma martedì");
                 break;
             case 3:
-                System.out.println("mercoledì");
+                System.out.println("si è mercoledì");
                 break;
             case 4:
-                System.out.println("giovedì");
+                System.out.println("no, non è mercoledì ma giovedì");
                 break;
             case 5:
-                System.out.println("venerdì");
+                System.out.println("no, non è mercoledì ma venerdì");
             case 6:
-                System.out.println("sabato");
+                System.out.println("no, non è mercoledì ma sabato");
                 break;
             case 7:
-                System.out.println("domenica");
+                System.out.println("no, non è mercoledì ma domenica");
                 break;
             default:
                 throw new AssertionError();
