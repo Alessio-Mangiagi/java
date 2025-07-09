@@ -12,34 +12,35 @@ public class novel {
             this.prossimeScene = prossimeScene;
         }
     }
-
+    // Metodo main per avviare il gioco
     public static void main(String[] args) {
+        System.out.println("Hai mangiato come un maiale!");
         Scanner scanner = new Scanner(System.in);
 
         // Definizione delle scene base
         Scene[] scenes = new Scene[] {
             new Scene(
-                "Ti svegli devi andare in bagno. Cosa fai?",
+                "Ti svegli, devi andare in bagno.\n Cosa fai?",
                 new String[]{"Accendi la luce", "Rimani a letto"},
                 new int[]{1, 2}
             ),
             new Scene(
-                "La luce si accende. Vedi la porta del bagno. Cosa fai?",
+                "La luce si accende.\n Vedi la porta del bagno.\n Cosa fai?",
                 new String[]{"Apri la porta", "Spegni la luce"},
                 new int[]{3, 0}
             ),
             new Scene(
-                "Rimani a letto. Stai per fartela sotto...",
+                "Rimani a letto.\n Stai per fartela sotto...",
                 new String[]{"Alzati", "Ignora"},
                 new int[]{1, 2}
             ),
             new Scene(
-                "Hai aperto la porta e ti sei liberato! tiri lo sciaquone e torni a letto.",
+                "Hai aperto la porta e ti sei liberato!\n Tiri lo sciaquone e torni a letto.",
                 new String[]{},
                 new int[]{}
             )
         };
-
+        // Inizializzazione della scena corrente e parte logica del gioco
         int scenaCorrente = 0;
         while (true) {
             Scene scena = scenes[scenaCorrente];
