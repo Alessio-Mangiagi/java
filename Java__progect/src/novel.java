@@ -37,8 +37,7 @@ public class novel {
             new Scene(
                 "Hai aperto la porta e ti sei liberato!\n Tiri lo sciaquone e torni a letto.",
                 new String[]{},
-                new int[]{}
-            )
+                new int[]{}            )
         };
         // Inizializzazione della scena corrente e parte logica del gioco
         int scenaCorrente = 0;
